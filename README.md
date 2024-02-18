@@ -13,7 +13,8 @@ Você pode instalar o pacote via pip. Execute o seguinte comando:
 
 Aqui está um exemplo básico de como você pode usar este pacote:
 
-```python
+##python
+
 from image_processing.filters import apply_grayscale, apply_blur
 import cv2
 
@@ -31,11 +32,16 @@ cv2.imshow('Original Image', image)
 cv2.imshow('Grayscale Image', gray_image)
 cv2.imshow('Blurred Image', blurred_image)
 cv2.waitKey(0)
-cv2.destroyAllWindows() ```
+cv2.destroyAllWindows() 
+
+
+
 
 ## Contribuindo
 Contribuindo
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request no GitHub.
+
+
 
 ## License
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
