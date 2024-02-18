@@ -39,6 +39,3 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## License
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
-
-Esse arquivo `README.md` pode ser copiado e colado diretamente no seu repositório no GitHub ou em qualquer outra plataforma de hospedagem de código-fonte que você estiver usando. Certifique-se de substituir as seções com as informações específicas do seu projeto.
-
