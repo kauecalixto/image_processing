@@ -1,27 +1,44 @@
-﻿# package_name
+# Image Processing Package
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este é um pacote Python para processamento de imagens. Ele fornece uma variedade de funcionalidades para manipular imagens, aplicar filtros, realizar transformações e muito mais.
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Você pode instalar o pacote via pip. Execute o seguinte comando:
 
-```bash
-pip install package_name
-```
 
-## Usage
+## pip install image-processing-package
+
+## Uso
+
+Aqui está um exemplo básico de como você pode usar este pacote:
 
 ```python
-from package_name.module1_name import file1_name
-file1_name.my_function()
-```
+from image_processing.filters import apply_grayscale, apply_blur
+import cv2
 
-## Author
-My_name
+# Carregar uma imagem
+image = cv2.imread('example.jpg')
+
+# Aplicar conversão para escala de cinza
+gray_image = apply_grayscale(image)
+
+# Aplicar um filtro de suavização
+blurred_image = apply_blur(image)
+
+# Exibir as imagens
+cv2.imshow('Original Image', image)
+cv2.imshow('Grayscale Image', gray_image)
+cv2.imshow('Blurred Image', blurred_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows() ```
+
+## Contribuindo
+Contribuindo
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request no GitHub.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Este projeto é licenciado sob a Licença MIT - consulte o arquivo LICENSE para obter detalhes.
+
+Esse arquivo `README.md` pode ser copiado e colado diretamente no seu repositório no GitHub ou em qualquer outra plataforma de hospedagem de código-fonte que você estiver usando. Certifique-se de substituir as seções com as informações específicas do seu projeto.
+
